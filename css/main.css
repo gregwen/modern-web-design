@@ -1,0 +1,29 @@
+<style type="text/css">
+		/* Charset Controls */
+		@charset "UTF-8";
+
+		body {
+			margin: 0em 10em 0em 10em;
+		}
+
+		.title {
+			text-align: center;
+		}
+
+		header {
+			border-bottom: 1px solid #ccc;
+			padding-bottom: 1em;
+		}
+
+		footer {
+			border-top: 1px solid #ccc;
+			padding-top: 1em;
+			font-size: 0.875em;
+			/* 16 * .875 = 14 */
+			font-style: italic;
+		}
+
+		q {
+			font-style: italic;
+		}
+	</style>
