@@ -1,3 +1,5 @@
 # website
-Assignment Website for Course, Modern Web Design
+
+A Modern Web Design course assignment
+
 https://gregwen.github.io/website/
