@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'barlowregular';
+    src: url(fonts/barlow/barlow-regular-webfont.woff) format("woff"),
+        url(fonts/Barlow-Regular.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    /* color: red; */
+    font-family: 'barlowregular', Arial, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    line-height: normal;
+}
+
+#page-container {
+    /* border: 1px solid gray;
+    border-style: inset; */
+    position: relative;
+    min-height: 100vh;
+    margin: 0% 20%;
+}
+
+#header {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+article {
+    /* background: #e5e5e5; */
+}
+
+article h1.title {
+    border-bottom: 1px darkslategray solid;
+    margin-right: 50px;
+}
+
+article .read-more {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: smaller;
+}
+
+.article #home {
+    /* min-height: 480px; */
+}
+
+button {
+    /* border: rgb(47, 79, 79) 1px dotted; */
+    background: #e5e5e5;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    min-width: 100%;
+}
+
+button.post {
+    text-align: left;
+    padding: 0px 10px;
+}
+
+a:link, a:visited, a:active {
+    color: slategrey;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+footer {
+    width: 100%;
+    padding: 3px;
+    color: white;
+    font-size: 9px;
+    background-color: rgba(0, 0, 0, 1.0);
+    text-align: center;
+    line-height: 1.5em;
+}
+
+/*###### BLOCKQUOTE ######*/
+blockquote {
+    display: block;
+    background: #fff;
+    padding: 15px 20px 15px 45px;
+    margin: 0 0 20px;
+    position: relative;
+
+    /*Font*/
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #666;
+    text-align: justify;
+
+    /*Borders - (Optional)*/
+    border-left: 15px solid #2c3e50;
+    border-right: 2px solid #2c3e50;
+    /*Box Shadow - (Optional)*/
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ccc;
+}
+
+blockquote::before {
+    content: "\201C";
+    /*Unicode for Left Double Quote*/
+
+    /*Font*/
+    font-family: Georgia, serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #999;
+
+    /*Positioning*/
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+blockquote::after {
+    /*Reset to make sure*/
+    content: "";
+}
+
+blockquote a {
+    text-decoration: none;
+    background: #eee;
+    cursor: pointer;
+    padding: 0 3px;
+    color: #c76c0c;
+}
+
+blockquote a:hover {
+    color: #666;
+}
+
+blockquote em {
+    font-style: italic;
+}
