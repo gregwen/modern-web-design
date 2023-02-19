@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #FFD8AA;
+    /* background-color: #333; */
+    background-color: #303030;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #552E00;
+    color: #D4A46A;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    font-family: 'Roboto', sans-serif;
+    padding: 100px;
+    min-height: 60vh;
+}
+
+section {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+    color: #D4A46A;
+}
+
+footer {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #552E00;
+    color: #D4A46A;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+    background-color: #804F15;
+    padding: 10px;
+}
+
+nav a {
+    color: #FFD8AA;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 1em 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #D4A46A;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+a {
+    color: #D4A46A;
+}
+
+a:hover {
+    color: #AA7639;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ol {
+    list-style: decimal;
+    margin-left: 20px;
+}
+
+/*#### COLOR SCHEME ####*/
+/* As hex codes */
+.color-primary-0 {
+    color: #AA7639;
+}
+
+.color-primary-1 {
+    color: #FFD8AA;
+}
+
+/* Main Primary color */
+.color-primary-2 {
+    color: #D4A46A;
+}
+
+.color-primary-3 {
+    color: #804F15;
+}
+
+.color-primary-4 {
+    color: #552E00;
+}
+
+/* As RGBa codes */
+.rgba-primary-0 {
+    color: rgba(170, 118, 57, 1);
+}
+
+/* Main Primary color */
+.rgba-primary-1 {
+    color: rgba(255, 216, 170, 1);
+}
+
+.rgba-primary-2 {
+    color: rgba(212, 164, 106, 1);
+}
+
+.rgba-primary-3 {
+    color: rgba(128, 79, 21, 1);
+}
+
+.rgba-primary-4 {
+    color: rgba(85, 46, 0, 1);
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 1rem;
+    }
+
+    .post-title {
+        font-size: 1.5rem;
+    }
+
+    .post-meta {
+        flex-direction: column;
+        text-align: center;
+    }
+}
