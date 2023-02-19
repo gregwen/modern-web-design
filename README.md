@@ -1,5 +1,5 @@
-# website
+# Modern Web Design
 
 A Modern Web Design course assignment
 
-https://gregwen.github.io/website/
+https://gregwen.github.io/modern-web-design/
