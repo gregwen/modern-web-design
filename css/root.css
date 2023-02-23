@@ -1,14 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap');
+
 html {
      top: 0px;
 }
 
 body {
-     /*background-color: black;*/
-}
-
-#page-container {
-     /* border: 1px solid gray;
-     border-style: inset; */
      position: relative;
      min-height: 100vh;
      margin: 0% 20%;
@@ -24,38 +21,10 @@ body {
      vertical-align: middle;
 }
 
-main {}
-
-button {
-     /* border: rgb(47, 79, 79) 1px dotted; */
-     background: #e5e5e5;
-     padding: 0px 10px;
-     margin-bottom: 10px;
-     min-width: 100%;
-}
-
-button.post {
-     text-align: left;
-     padding: 0px 10px;
-}
-
-article {
-     /* background: #e5e5e5; */
-
-}
-
-article h1.title {
-     border-bottom: 1px darkslategray solid;
-     margin-right: 50px;
-}
-
-article .read-more {
-     text-align: center;
-     font-variant: small-caps;
-}
-
-.article #home {
-     /* min-height: 480px; */
+main {
+    font-family: 'Roboto', sans-serif;
+    padding: 100px;
+    min-height: 60vh;
 }
 
 a:link, a:visited, a:active {
@@ -67,11 +36,10 @@ a:hover {
 }
 
 footer {
-     width: 100%;
-     padding: 3px;
-     color: white;
-     font-size: 9px;
+     background-color: black;
      background-color: rgba(0, 0, 0, 1.0);
+     padding: 10px;
+     font-size: 9px;
      text-align: center;
 }
 
